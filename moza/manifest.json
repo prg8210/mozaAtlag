@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "moza",
+  "description": "mozaNaplo atlagok megtekintese",
+  "version": "1.0",
+
+  "content_scripts": [
+   {
+      //Set your address you want the extension will work in mataches!!! 
+   "matches": ["http://rmg.mozanaplo.hu/jegy.php?q=*", "https://rmg.mozanaplo.hu/jegy.php?q=*"],
+    "js": ["moza.js"],
+    "run_at": "document_end"
+   }
+  ],
+
+  "permissions": [
+    "activeTab"
+  ]
+}
