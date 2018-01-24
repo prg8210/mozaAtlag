@@ -1,0 +1,27 @@
+Két féleképpen tudjátok használni:
+Megjegyzés: a jelenlegi verzió csak az első félévvel működik, de nemsokára frissítem
+
+A. (egyszerűbb, viszont minden alkalommal meg kell csinálni):  
+
+  1. másold a vágólapra a moza/moza.js file tartalmát
+  2. lépj be a mozaNaplóba, ott menj az "Ellenőrzők, bizonyítványok" pontra
+  3. a címsorba (ahol most valami olyasmi van, hogy "https://rmg.mozanaplo.hu/jegy.php?q=D0QOHi5jqvMjXvmbVvTRLUm%28205NKE5YJ3pY%3D") írd be: javascript:{ majd illeszd be a vágólapon levő kódot, ezután írj még egy } jelet (ez FONTOS, enélkül nem fog működni), majd 'üss' ENTERT (ha mobil eszközön vagy, akkor is működik)
+  4. ezután a táblázatban megjelenik két új oszlop a súlyozatlan és a súlyozott átlagokkal
+
+megjegyzés:
+  a. ha a 3. lépésben lusta voltál, és a javascript:{ és } részt is másolás-beillesztés módszerrel csináltad, akkor nem fog működni
+  
+B. (Chrome Extension; csak PC-n működik, Chrome-mal, de elég egyszer megcsinálni, utána mindig automatikusan megjelenik az átlag):
+
+  1. töltsd le az itt található !EGÉSZ! moza mappát
+  2. a címsorba írd be: chrome://extensions/
+  3. tegyél pipát a "fejlesztői mód" négyzetébe
+  4. az 1. pontban letöltött mappát pl. fáljkezelőből "húzd" a böngésző lapjára
+  5. deaktiváld a fejlesztői módot
+  6. ezután bármikor megnézed a jegyeidet, az átlagod is látni fogod
+
+megjegyzés:
+  a. a második félév jegyeivel valószínűleg még nem működik, a frissítés ugyanitt lesz elérhető, amit az előbb leírt módon tudsz telepíteni (előtte érdemes a korábbi verziót eltávolítani)
+  b. ha a 4. pontban feltöltött mappát áthelyezed/átnevezed, akkor utána nem fog működni, újra kell telepíteni a kiegészítőt
+
+Remélem segítettem ;)
